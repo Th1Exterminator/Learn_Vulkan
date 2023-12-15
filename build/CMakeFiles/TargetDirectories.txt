@@ -1,3 +1,3 @@
 D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/project_1.dir
-D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/ALL_BUILD.dir
-D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/ZERO_CHECK.dir
+D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/edit_cache.dir
+D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/rebuild_cache.dir
