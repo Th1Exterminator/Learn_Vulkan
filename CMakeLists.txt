@@ -7,7 +7,6 @@ set( CMAKE_CXX_COMPILER "C:/MinGW/bin/g++.exe" )
 set( CMAKE_C_COMPILER "C:/MinGW/bin/gcc.exe" )
 
 #Set Project Up
-add_subdirectory(src)
 add_executable(${PROJECT_NAME} main.cpp)
 
 #Libraries and Includes
