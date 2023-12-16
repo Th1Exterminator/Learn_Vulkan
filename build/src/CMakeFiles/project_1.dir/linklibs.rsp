@@ -1,1 +1,0 @@
-  -LD:/c_c++/learn_vulkan/project_1/src/includes  -L"D:/sdk/glfw-3.3.7/lib-vc2022"  engine/libengine.a -lglfw3 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

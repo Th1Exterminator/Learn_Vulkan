@@ -125,7 +125,7 @@ project_1: cmake_check_build_system
 
 # fast build rule for target.
 project_1/fast:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\project_1.dir\build.make src/CMakeFiles/project_1.dir/build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/build
 .PHONY : project_1/fast
 
 #=============================================================================
@@ -138,8 +138,56 @@ engine: cmake_check_build_system
 
 # fast build rule for target.
 engine/fast:
-	$(MAKE) $(MAKESILENT) -f src\engine\CMakeFiles\engine.dir\build.make src/engine/CMakeFiles/engine.dir/build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\engine.dir\build.make CMakeFiles/engine.dir/build
 .PHONY : engine/fast
+
+src/engine/engine.obj: src/engine/engine.cpp.obj
+.PHONY : src/engine/engine.obj
+
+# target to build an object file
+src/engine/engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\engine.dir\build.make CMakeFiles/engine.dir/src/engine/engine.cpp.obj
+.PHONY : src/engine/engine.cpp.obj
+
+src/engine/engine.i: src/engine/engine.cpp.i
+.PHONY : src/engine/engine.i
+
+# target to preprocess a source file
+src/engine/engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\engine.dir\build.make CMakeFiles/engine.dir/src/engine/engine.cpp.i
+.PHONY : src/engine/engine.cpp.i
+
+src/engine/engine.s: src/engine/engine.cpp.s
+.PHONY : src/engine/engine.s
+
+# target to generate assembly for a file
+src/engine/engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\engine.dir\build.make CMakeFiles/engine.dir/src/engine/engine.cpp.s
+.PHONY : src/engine/engine.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -151,6 +199,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... engine
 	@echo ... project_1
+	@echo ... src/engine/engine.obj
+	@echo ... src/engine/engine.i
+	@echo ... src/engine/engine.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 
