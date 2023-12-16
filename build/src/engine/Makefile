@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\c_c++\learn_vulkan\project_1\build\CMakeFiles D:\c_c++\learn_vulkan\project_1\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d D:\c_c++\learn_vulkan\project_1\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\c_c++\learn_vulkan\project_1\build\CMakeFiles D:\c_c++\learn_vulkan\project_1\build\src\engine\\CMakeFiles\progress.marks
+	cd /d D:\c_c++\learn_vulkan\project_1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/engine/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\c_c++\learn_vulkan\project_1\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d D:\c_c++\learn_vulkan\project_1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/engine/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,44 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\c_c++\learn_vulkan\project_1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/engine/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\c_c++\learn_vulkan\project_1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/engine/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\c_c++\learn_vulkan\project_1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named project_1
+# Convenience name for target.
+src/engine/CMakeFiles/engine.dir/rule:
+	cd /d D:\c_c++\learn_vulkan\project_1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/engine/CMakeFiles/engine.dir/rule
+.PHONY : src/engine/CMakeFiles/engine.dir/rule
 
-# Build rule for target.
-project_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 project_1
-.PHONY : project_1
-
-# fast build rule for target.
-project_1/fast:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\project_1.dir\build.make src/CMakeFiles/project_1.dir/build
-.PHONY : project_1/fast
-
-#=============================================================================
-# Target rules for targets named engine
-
-# Build rule for target.
-engine: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 engine
+# Convenience name for target.
+engine: src/engine/CMakeFiles/engine.dir/rule
 .PHONY : engine
 
 # fast build rule for target.
 engine/fast:
-	$(MAKE) $(MAKESILENT) -f src\engine\CMakeFiles\engine.dir\build.make src/engine/CMakeFiles/engine.dir/build
+	cd /d D:\c_c++\learn_vulkan\project_1\build && $(MAKE) $(MAKESILENT) -f src\engine\CMakeFiles\engine.dir\build.make src/engine/CMakeFiles/engine.dir/build
 .PHONY : engine/fast
+
+engine.obj: engine.cpp.obj
+.PHONY : engine.obj
+
+# target to build an object file
+engine.cpp.obj:
+	cd /d D:\c_c++\learn_vulkan\project_1\build && $(MAKE) $(MAKESILENT) -f src\engine\CMakeFiles\engine.dir\build.make src/engine/CMakeFiles/engine.dir/engine.cpp.obj
+.PHONY : engine.cpp.obj
+
+engine.i: engine.cpp.i
+.PHONY : engine.i
+
+# target to preprocess a source file
+engine.cpp.i:
+	cd /d D:\c_c++\learn_vulkan\project_1\build && $(MAKE) $(MAKESILENT) -f src\engine\CMakeFiles\engine.dir\build.make src/engine/CMakeFiles/engine.dir/engine.cpp.i
+.PHONY : engine.cpp.i
+
+engine.s: engine.cpp.s
+.PHONY : engine.s
+
+# target to generate assembly for a file
+engine.cpp.s:
+	cd /d D:\c_c++\learn_vulkan\project_1\build && $(MAKE) $(MAKESILENT) -f src\engine\CMakeFiles\engine.dir\build.make src/engine/CMakeFiles/engine.dir/engine.cpp.s
+.PHONY : engine.cpp.s
 
 # Help Target
 help:
@@ -150,7 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... engine
-	@echo ... project_1
+	@echo ... engine.obj
+	@echo ... engine.i
+	@echo ... engine.s
 .PHONY : help
 
 
@@ -162,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\c_c++\learn_vulkan\project_1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

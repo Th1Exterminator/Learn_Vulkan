@@ -1,3 +1,10 @@
-D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/project_1.dir
 D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/edit_cache.dir
 D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/rebuild_cache.dir
+D:/c_c++/learn_vulkan/project_1/build/src/CMakeFiles/project_1.dir
+D:/c_c++/learn_vulkan/project_1/build/src/CMakeFiles/edit_cache.dir
+D:/c_c++/learn_vulkan/project_1/build/src/CMakeFiles/rebuild_cache.dir
+D:/c_c++/learn_vulkan/project_1/build/src/engine/CMakeFiles/engine.dir
+D:/c_c++/learn_vulkan/project_1/build/src/engine/CMakeFiles/edit_cache.dir
+D:/c_c++/learn_vulkan/project_1/build/src/engine/CMakeFiles/rebuild_cache.dir
+D:/c_c++/learn_vulkan/project_1/build/src/includes/CMakeFiles/edit_cache.dir
+D:/c_c++/learn_vulkan/project_1/build/src/includes/CMakeFiles/rebuild_cache.dir

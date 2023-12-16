@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/c_c++/learn_vulkan/project_1/src/main.cpp" "CMakeFiles/project_1.dir/src/main.cpp.obj" "gcc" "CMakeFiles/project_1.dir/src/main.cpp.obj.d"
+  "D:/c_c++/learn_vulkan/project_1/src/main.cpp" "src/CMakeFiles/project_1.dir/main.cpp.obj" "gcc" "src/CMakeFiles/project_1.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "D:/c_c++/learn_vulkan/project_1/build/src/engine/CMakeFiles/engine.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
