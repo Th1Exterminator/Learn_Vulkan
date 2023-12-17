@@ -11,12 +11,17 @@ private:
     const std::string title;
     const uint16_t width, height;
 
+    /* Handles */
+    GLFWwindow* window;
+    VkInstance instance;
+
     /* methods */
-    uint32_t initWindow();
-    uint32_t initVulkan();
+    int initWindow();
+    int initVulkan();
+    void createInstance();
 public:
     vulk_app(std::string _title);
-    vulk_app(std::string _title, const uint16_t _width, const uint16_t _height);
+    vulk_app(std::string _title, const int _width, const int _height);
     void vulk_loop();
     ~vulk_app();
 };
