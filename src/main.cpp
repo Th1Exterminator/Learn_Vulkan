@@ -1,13 +1,20 @@
-#define GLFW_INCLUDE_VULKAN
-#include "GLFW/glfw3.h"
-
-#include <iostream>
-#include <stdexcept>
-#include <cstdlib>
+// Project includes
+#include "includes/baseincludes.h"
+#include "includes/engine.h"
 
 int main()
 {
-    std::cout << "Hello world" << std::endl;
+    std::unique_ptr<vulk_app> v(new vulk_app("Hello world"));
 
-    return 0;
+    try
+    {
+        v->vulk_loop();
+    }
+    catch(const std::exception& e)
+    {
+        std::cerr << e.what() << '\n';
+        return EXIT_FAILURE;
+    }
+    
+    return EXIT_SUCCESS;
 }

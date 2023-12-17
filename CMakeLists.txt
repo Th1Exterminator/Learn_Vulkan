@@ -11,7 +11,7 @@ add_executable(${PROJECT_NAME} src/main.cpp)
 
 #Setting Library Up
 add_library(engine src/engine/engine.cpp)
-target_link_libraries(${PROJECT_NAME} engine)
+target_link_libraries(${PROJECT_NAME} engine pthread)
 target_link_directories(${PROJECT_NAME} PUBLIC src/includes)
 
 #Libraries and Includes
