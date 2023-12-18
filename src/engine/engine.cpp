@@ -30,6 +30,23 @@ void vulk_app::createInstance()
     VkInstanceCreateInfo instanceInfo;
     instanceInfo.sType = VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO;
     instanceInfo.pApplicationInfo = &appInfo;
+
+    // Get glfw extensions
+    uint32_t glfwExtensionCount = 0;
+    const char** glfwExtensions;
+    glfwExtensions = glfwGetRequiredInstanceExtensions(&glfwExtensionCount);
+    // Pass extension to instance information
+    instanceInfo.enabledExtensionCount = glfwExtensionCount;
+    instanceInfo.ppEnabledExtensionNames = glfwExtensions;
+
+    // No layers for now
+    instanceInfo.enabledLayerCount = 0;
+
+    // Create instance
+    if (vkCreateInstance(&instanceInfo, nullptr, &instance) != VK_SUCCESS)
+    {
+        throw std::runtime_error("Failed to create info");
+    }
 }
 
 vulk_app::vulk_app(std::string _title) 
