@@ -26,25 +26,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 13,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 18,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 19,
+				"line" : 10,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 21,
+				"line" : 11,
 				"parent" : 0
 			}
 		]
@@ -62,7 +62,11 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/c_c++/learn_vulkan/project_1/src/includes"
+					"path" : "D:/c_c++/learn_vulkan/project_1"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/src/includes"
 				},
 				{
 					"backtrace" : 3,

@@ -30,7 +30,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -40,39 +46,27 @@
 				"parent" : 0
 			},
 			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 20,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 22,
-				"parent" : 0
-			},
-			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 14,
+				"line" : 23,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 18,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 19,
+				"line" : 10,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 21,
+				"line" : 11,
 				"parent" : 0
 			}
 		]
@@ -89,15 +83,19 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 6,
-					"path" : "D:/c_c++/learn_vulkan/project_1/src/includes"
+					"backtrace" : 5,
+					"path" : "D:/c_c++/learn_vulkan/project_1"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 5,
+					"path" : "/src/includes"
+				},
+				{
+					"backtrace" : 6,
 					"path" : "D:/sdk/glfw-3.3.7/include"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"path" : "D:/sdk/Vulkan/Include"
 				}
 			],
@@ -111,7 +109,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 5,
+			"backtrace" : 4,
 			"id" : "engine::@6890427a1f51a3e7e1df"
 		}
 	],
@@ -130,26 +128,31 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LD:\\c_c++\\learn_vulkan\\project_1\\src\\includes",
+				"fragment" : "-LD:\\sdk\\glfw-3.3.7\\lib-mingw-w64",
 				"role" : "libraryPath"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-LD:\\sdk\\glfw-3.3.7\\lib-vc2022",
-				"role" : "libraryPath"
-			},
-			{
-				"backtrace" : 4,
 				"fragment" : "-LD:\\sdk\\Vulkan\\Lib",
 				"role" : "libraryPath"
 			},
 			{
-				"backtrace" : 5,
+				"backtrace" : 4,
 				"fragment" : "libengine.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
+				"backtrace" : 4,
+				"fragment" : "-lglfw3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lvulkan-1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
 				"fragment" : "-lpthread",
 				"role" : "libraries"
 			},

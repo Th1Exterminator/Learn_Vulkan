@@ -73,6 +73,7 @@ void vulk_app::vulk_loop()
 
 vulk_app::~vulk_app()
 {
+    vkDestroyInstance(instance, nullptr);
     glfwDestroyWindow(window);
     glfwTerminate();
 }
