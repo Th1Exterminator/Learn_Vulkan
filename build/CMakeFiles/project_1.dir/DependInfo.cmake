@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/c_c++/learn_vulkan/project_1/src/main.cpp" "CMakeFiles/project_1.dir/src/main.cpp.obj" "gcc" "CMakeFiles/project_1.dir/src/main.cpp.obj.d"
+  "D:/c_c++/learn_vulkan/project_1/src/main.cpp" "CMakeFiles/project_1.dir/src/main.cpp.obj" "msvc" "CMakeFiles/project_1.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/project_1.dir/embed.manifest"

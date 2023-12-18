@@ -1,6 +1,6 @@
 // Project includes
-#include "includes/baseincludes.h"
-#include "includes/engine.h"
+#include "includes/baseincludes.hpp"
+#include "includes/engine.hpp"
 
 int main()
 {

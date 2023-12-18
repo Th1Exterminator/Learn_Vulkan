@@ -1,6 +1,6 @@
-#include "engine.h"
+#include "../includes/engine.hpp"
 
-int vulk_app::initWindow()
+void vulk_app::initWindow()
 {
     // Don't use GLFW api; Don't allow resizing
     glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
@@ -10,7 +10,7 @@ int vulk_app::initWindow()
     window = glfwCreateWindow(width, height, title.c_str(), nullptr, nullptr);
 }
 
-int vulk_app::initVulkan()
+void vulk_app::initVulkan()
 {
     createInstance();
 }
@@ -18,7 +18,7 @@ int vulk_app::initVulkan()
 void vulk_app::createInstance()
 {
     // Create information on the application
-    VkApplicationInfo appInfo;
+    VkApplicationInfo appInfo{};
     appInfo.sType = VK_STRUCTURE_TYPE_APPLICATION_INFO;
     appInfo.pApplicationName = title.c_str();
     appInfo.apiVersion = VK_MAKE_VERSION(1, 0, 0);
@@ -27,7 +27,7 @@ void vulk_app::createInstance()
     appInfo.apiVersion = VK_API_VERSION_1_0;
 
     // Apply instance creation info
-    VkInstanceCreateInfo instanceInfo;
+    VkInstanceCreateInfo instanceInfo{};
     instanceInfo.sType = VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO;
     instanceInfo.pApplicationInfo = &appInfo;
 

@@ -1,0 +1,1 @@
+Note: MinGW has issues with compiling Vulkan

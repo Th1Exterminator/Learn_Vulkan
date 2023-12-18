@@ -2,7 +2,7 @@
 #define _ENGINE_VULK
 #pragma once
 
-#include "baseincludes.h"
+#include "baseincludes.hpp"
 
 class vulk_app
 {
@@ -16,8 +16,8 @@ private:
     VkInstance instance;
 
     /* methods */
-    int initWindow();
-    int initVulkan();
+    void initWindow();
+    void initVulkan();
     void createInstance();
 public:
     vulk_app(std::string _title);

@@ -1,1 +1,0 @@
-  -L"D:/sdk/glfw-3.3.7/lib-mingw-w64"  -LD:/sdk/Vulkan/Lib  libengine.a -lglfw3 -lvulkan-1 -lpthread -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

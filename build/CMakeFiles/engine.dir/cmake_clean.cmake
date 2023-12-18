@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/engine.dir/src/engine/engine.cpp.obj"
   "CMakeFiles/engine.dir/src/engine/engine.cpp.obj.d"
-  "libengine.a"
-  "libengine.pdb"
+  "engine.lib"
+  "engine.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

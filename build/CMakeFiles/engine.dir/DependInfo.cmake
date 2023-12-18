@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/c_c++/learn_vulkan/project_1/src/engine/engine.cpp" "CMakeFiles/engine.dir/src/engine/engine.cpp.obj" "gcc" "CMakeFiles/engine.dir/src/engine/engine.cpp.obj.d"
+  "D:/c_c++/learn_vulkan/project_1/src/engine/engine.cpp" "CMakeFiles/engine.dir/src/engine/engine.cpp.obj" "msvc" "CMakeFiles/engine.dir/src/engine/engine.cpp.obj.d"
   )
 
 # Targets to which this target links.

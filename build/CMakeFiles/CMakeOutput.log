@@ -1,60 +1,73 @@
 The system is: Windows - 10.0.22621 - AMD64
-The system is: Windows - 10.0.22621 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: C:/MinGW/bin/gcc.exe 
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/cl.exe 
 Build flags: 
 Id flags:  
 
 The output was:
 0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32535 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.36.32535.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
 
-The C compiler identification is GNU, found in "D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/3.23.1/CompilerIdC/a.exe"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/3.23.1/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: C:/MinGW/bin/g++.exe 
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/cl.exe 
 Build flags: 
 Id flags:  
 
 The output was:
 0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32535 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.36.32535.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
 
-The CXX compiler identification is GNU, found in "D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/3.23.1/CompilerIdCXX/a.exe"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-Determining if the C compiler works passed with the following output:
+The CXX compiler identification is MSVC, found in "D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/3.23.1/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_163b0/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_163b0.dir\build.make CMakeFiles/cmTC_163b0.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_163b0.dir/testCCompiler.c.obj
-C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_163b0.dir\testCCompiler.c.obj -c D:\c_c++\learn_vulkan\project_1\build\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_163b0.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_163b0.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_163b0.dir/objects.a
-C:\MinGW\bin\ar.exe qc CMakeFiles\cmTC_163b0.dir/objects.a @CMakeFiles\cmTC_163b0.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_163b0.dir/objects.a -Wl,--no-whole-archive -o cmTC_163b0.exe -Wl,--out-implib,libcmTC_163b0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_163b0.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):nmake -f Makefile /nologo cmTC_9a3a7\fast && 	"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_9a3a7.dir\build.make /nologo -L                  CMakeFiles\cmTC_9a3a7.dir\build
+Building C object CMakeFiles/cmTC_9a3a7.dir/CMakeCCompilerABI.c.obj
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_9a3a7.dir\CMakeCCompilerABI.c.obj.d --working-dir=D:\c_c++\learn_vulkan\project_1\build\CMakeFiles\CMakeTmp --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @C:\Users\atill\AppData\Local\Temp\nm9AC7.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_9a3a7.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_9a3a7.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_9a3a7.dir\objects1.rsp @C:\Users\atill\AppData\Local\Temp\nm9C1F.tmp
 
 
 
-Determining if the CXX compiler works passed with the following output:
+Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_58633/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_58633.dir\build.make CMakeFiles/cmTC_58633.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_58633.dir/testCXXCompiler.cxx.obj
-C:\MinGW\bin\g++.exe    -o CMakeFiles\cmTC_58633.dir\testCXXCompiler.cxx.obj -c D:\c_c++\learn_vulkan\project_1\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX executable cmTC_58633.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_58633.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_58633.dir/objects.a
-C:\MinGW\bin\ar.exe qc CMakeFiles\cmTC_58633.dir/objects.a @CMakeFiles\cmTC_58633.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -Wl,--whole-archive CMakeFiles\cmTC_58633.dir/objects.a -Wl,--no-whole-archive -o cmTC_58633.exe -Wl,--out-implib,libcmTC_58633.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_58633.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/c_c++/learn_vulkan/project_1/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):nmake -f Makefile /nologo cmTC_3eec4\fast && 	"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_3eec4.dir\build.make /nologo -L                  CMakeFiles\cmTC_3eec4.dir\build
+Building CXX object CMakeFiles/cmTC_3eec4.dir/CMakeCXXCompilerABI.cpp.obj
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_3eec4.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir=D:\c_c++\learn_vulkan\project_1\build\CMakeFiles\CMakeTmp --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @C:\Users\atill\AppData\Local\Temp\nmA100.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_3eec4.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_3eec4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MICROS~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_3eec4.dir\objects1.rsp @C:\Users\atill\AppData\Local\Temp\nmA14F.tmp
 
 
 

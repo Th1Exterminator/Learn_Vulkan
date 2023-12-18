@@ -1,2 +1,0 @@
-C:\MinGW\bin\ar.exe qc libengine.a CMakeFiles/engine.dir/src/engine/engine.cpp.obj
-C:\MinGW\bin\ranlib.exe libengine.a
