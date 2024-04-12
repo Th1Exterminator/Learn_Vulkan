@@ -10,7 +10,7 @@ int main()
     {
         v->vulk_loop();
     }
-    catch(const std::exception& e) // Version
+    catch(const std::exception& e) // Version 2.0
     {
         std::cerr << e.what() << '\n';
         return EXIT_FAILURE;
